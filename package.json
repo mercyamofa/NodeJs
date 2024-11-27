@@ -1,0 +1,20 @@
+{
+  "name": "pro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon indes.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Spark",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4",
+    "sequelize": "^6.37.5"
+  }
+}
